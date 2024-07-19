@@ -162,9 +162,6 @@ foreach($results as $row)
                 </div>
             </section>
 
-            
-
-            
 
             <section class="section-padding" id="booking">
                 <div class="container">
@@ -174,7 +171,6 @@ foreach($results as $row)
                             <div class="booking-form">
                                 
                                 <h2 class="text-center mb-lg-3 mb-2">Book an appointment</h2>
-                            
                                 <form role="form" method="post">
                                     <div class="row">
                                         <div class="col-lg-6 col-12">
@@ -193,7 +189,6 @@ foreach($results as $row)
                                             <input type="date" name="date" id="date" value="" class="form-control">
                                             
                                         </div>
-
                                             <div class="col-lg-6 col-12">
                                             <input type="time" name="time" id="time" value="" class="form-control">
                                             
