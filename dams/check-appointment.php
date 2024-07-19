@@ -2,13 +2,11 @@
 session_start();
 //error_reporting(0);
 include('doctor/includes/dbconnection.php');
-
 ?>
 <!doctype html>
 <html lang="en">
     <head>
         <title>Doctor Appointment Management System || Home Page</title>
-
         <!-- CSS FILES -->        
         <link rel="preconnect" href="https://fonts.googleapis.com">
         
@@ -26,6 +24,7 @@ include('doctor/includes/dbconnection.php');
 
         <link href="css/templatemo-medic-care.css" rel="stylesheet">
         <script>
+            
 function getdoctors(val) {
      alert(val);
 $.ajax({
@@ -47,12 +46,6 @@ $("#doctorlist").html(data);
 
             <?php include_once('includes/header.php');?>
 
-          
-       
-            
-
-            
-
             <section class="section-padding" id="booking">
                 <div class="container">
                     <div class="row">
@@ -73,7 +66,6 @@ $("#doctorlist").html(data);
                                         </div>
                                     </div>
                                 </form>
-
                             </div>
                             <?php
 if(isset($_POST['search']))
